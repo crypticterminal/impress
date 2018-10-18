@@ -1,0 +1,4 @@
+{
+  Databases: Many('Database'),
+  Hash: { type: 'object', class: 'Object' }
+}
