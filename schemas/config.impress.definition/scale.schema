@@ -3,7 +3,7 @@
 
   cloud: { domain: 'Nomen', required: true },
   server: { domain: 'Nomen', required: true },
-  controller: { category: 'Controller', required: true },
+  controller: { category: 'controller', required: true },
   instance: { domain: 'Instance', required: true },
 
   key: { domain: 'SHA256' },
@@ -13,7 +13,7 @@
   nagle: { domain: 'Logical', required: true },
   gc: { domain: 'Duration', required: true },
   watch: { domain: 'Duration', required: true },
-  firewall: { category: 'Firewall', required: true },
+  firewall: { category: 'firewall', required: true },
 
   characters: { domain: 'Characters', required: true },
   length: { domain: 'Count', required: true }
